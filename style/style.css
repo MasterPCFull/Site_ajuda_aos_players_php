@@ -1,0 +1,103 @@
+:root {
+    --color-background: #F0F0F7;
+    --color-primary-lighter:#0000FF;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842c2;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --color-small-info: #C1BCCC;
+    
+  }
+  
+
+body{
+  background:url('../imagem/unnamed.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+  bottom: 0;
+  color:white;
+  left: 0;
+  overflow: auto;
+  padding: 3em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.logo img{
+
+  widows: 20rem;
+  height:20rem;
+  align-items: center;
+  
+  border-radius: 50px;
+  
+  transform: translate(15%, 5%);
+}
+
+#botao button{
+  float: left; 
+  border:1px solid; 
+  padding: 11px 21px;
+  vertical-align: middle; 
+  background:#2D888F; 
+  color:white;
+  border-radius:10px;
+  font-size: 20px; 
+  font-family:helvetica,serif;
+  text-decoration:none;
+/*margem entre botoes */
+
+  margin-right: 5px;
+
+}
+
+#botao2 button{
+
+  float: left; 
+  border:1px solid; 
+  padding: 11px 21px;
+  vertical-align: middle;
+  background:#2D888F; 
+  color:white;
+  border-radius:10px;
+  font-size: 20px; 
+  font-family:helvetica,serif;
+  text-decoration:none;
+ 
+}
+
+.centro{
+  width:50%;
+  margin: 0 auto;
+
+}
+
+.logo h1{
+  color: white;
+  text-align: center;
+}
+
+.container{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
